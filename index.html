@@ -152,7 +152,12 @@
                 <img src="img/back-view.jpg" class="col-lg-4 col-sm-12 img-responsive col-lg-offset-2" class="img-responsive"  alt="">
                 
                 <div class="col-lg-4 col-sm-12">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    <p>
+                    This is how board looks like from back side.
+                    On the left side you can see Odroid, WiFi dongle and USB memory stick. Thats where SimpleCV does its magic.
+                    In bottom corner sits voltage regulator which makes 5V out of 12V for Ordoid.
+                    And lot of LEDs. Just to make the back cover look pretty :)
+                    </p>
                 </div>
                 
 
@@ -162,7 +167,11 @@
 
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    <p>
+                    And thats how everything looks in place.
+                    Camera is positioned slightly above the meter, to prevent reflections from LEDs.
+                    Back cover designed and printed by <a href="http://makerslab.cz/" style="color:black;">MakersLab</a> is light up by many LEDs you can see on previous the image.
+                    </p>
                 </div>
 
                 <img src="img/room-view.jpg" class="col-lg-4 col-sm-12 img-responsive" alt="">
@@ -175,7 +184,10 @@
                 <img src="img/board7.png" class="col-lg-4 col-lg-offset-2 col-sm-12 img-responsive" alt="">
 
                 <div class="col-lg-4">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    <p>
+                    This is example image taken by the camera. Thats where computer vision fun begins.
+                    In corners you can see orange stickers which helps us to find the counter, area we are interested in.
+                    </p>
                 </div>
                 
             </div>
@@ -184,7 +196,9 @@
 
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    <p>
+                    We just look for orange blobs desired size. Its easy to find our stickers on the image.
+                    </p>
                 </div>
 
                 <img src="img/image_with_markers.png" class="col-lg-4 col-sm-12 img-responsive" alt="">
@@ -198,7 +212,9 @@
                 <img src="img/fixed_perspective.png" class="col-lg-4 col-lg-offset-2 col-sm-12 img-responsive" alt="">
 
                 <div class="col-lg-4">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    <p>
+                    Knowing where the corners are, we can resize the counter to rectangle of known size.
+                    </p>
                 </div>
                 
             </div>
@@ -207,7 +223,9 @@
 
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    <p>
+                    Now we know that our digits are in specific location of the image.
+                    </p>
                 </div>
 
                 <img src="img/fixed_perspective_boxes.png" class="col-lg-4 col-sm-12 img-responsive" alt="">
@@ -220,12 +238,21 @@
                 <img src="img/digits_samples.png" class="col-lg-4 col-lg-offset-2 col-sm-12 img-responsive" alt="">
 
                 <div class="col-lg-4">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    <p>
+                    With little bit of magic, we can crop digits from the image. Digits are roughly 50x150px big and similar to MINST dataset.
+                    Digits recognition uses LinearSVC from Scikit.
+                    </p>
                 </div>
                 
                 <br>
 
                 <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p>
+                    This was my first project with SimpleCV and I fell in love with this library.
+                    Its API is really simple to use and you don't need to have ten PhDs to understand it. <br>
+                    I tried to document the code as much as possible, feel free to have fun with it :)
+                    </p> 
+                    <br>
                     <a href="https://github.com/ParalelniPolis/ppplyn" class="btn btn-lg btn-outline"  style="border-color:black; color:black;">
                         <i class="fa fa-code-fork"></i> Fork me on GitHub
                     </a>
@@ -247,7 +274,9 @@
 
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p><a href="http://makerslab.cz/" style="color:black;">MakersLab</a> is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    <p>
+                    <a href="http://makerslab.cz/" style="color:black;">MakersLab</a> designed and 3D printed the back cover for the board. Cover was printed on printer Prusa X1. Source files for the cover are included in the Github repository.
+                    </p>
                 </div>
 
                 <img src="http://i.giphy.com/OIomT4cgaQ9fW.gif" class="col-lg-4 col-sm-12 img-responsive" alt="">
@@ -260,7 +289,10 @@
                 <img src="http://i.giphy.com/UWBuuJCWB1yXC.gif" class="col-lg-4 col-lg-offset-2 col-sm-12 img-responsive" alt="">
 
                 <div class="col-lg-4">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    <p>
+                    Wall of the cover where Paralelni Polis's logo is is slightly thinner, which enables us to paint that area with black paint which blocks light from LEDs and makes our logo glowing.
+                    It looks even better in person.
+                    </p>
                 </div>
                 
 
