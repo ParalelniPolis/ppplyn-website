@@ -109,7 +109,11 @@
             var ctx = document.getElementById("canvas").getContext("2d");
             window.myLine = new Chart(ctx).Line(graph_data, {
                 responsive: true,
-                multiTooltipTemplate: "<%= datasetLabel %> - <%= value %>"
+                multiTooltipTemplate: "<%= datasetLabel %> - <%= value %>",
+                scaleOverride : true,
+                scaleSteps : 15,
+                scaleStepWidth : 1,
+                scaleStartValue : -2 
             });
         }
 
